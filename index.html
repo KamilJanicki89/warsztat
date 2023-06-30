@@ -1,73 +1,133 @@
-<!doctype html>
-<html lang=“en”>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset=“UTF-8">
-    <meta name=“viewport”
-          content=“width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>BestShop</title>
-    <link rel=“preconnect” href=“https://fonts.gstatic.com” crossorigin>
-    <link href=“https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap”
-          rel=“stylesheet”>
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700,800&display=swap&subset=latin-ext"
+            rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/reset.css">
+       <link rel="stylesheet" href="src/css/main.css">
+
 
 </head>
+
+
 <body>
-<header class=“header”>
-    <div class=“container”>
-        <div class=“header__wrapper”>
-            <a href=“#” class=“brand”>BestShop</a>
-            <nav>
-                <ul class=“header__nav”>
-                    <li class=“menu-item”><a href=“#why-us” class=“menu-item__link”>Why us</a></li>
-                    <li class=“menu-item”><a href=“#benefits” class=“menu-item__link”>benefits</a></li>
-                    <li class=“menu-item”><a href=“#prices” class=“menu-item__link”>Prices</a></li>
-                    <li class=“menu-item”><a href=“#contact” class=“menu-item__link”>Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+<header class="header">
+    <div class="header__container container">
+        <a href="#" class="logo">BestShop</a>
+        <nav>
+            <ul class="header__nav">
+                <li class="nav__element">
+                    <a href="" class="nav__link">Why us</a>
+                </li>
+                <li class="nav__element">
+                    <a href="" class="nav__link">Benefits</a>
+                </li>
+                <li class="nav__element">
+                    <a href="" class="nav__link">Prices</a>
+                </li>
+                <li class="nav__element">
+                    <a href="" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </header>
-<section class=“intro”>
-    <div class=“intro__bg”>
-        <div class=“intro__box”>
-            <h1 class=“main__title”>Sell More!</h1>
-            <p class=“pmain”>Open shop on our platform and increase your sales</p>
-            <a class=“mbutton”>Open your shop</a>
+<section class="opening">
+    <div class="opening__content">
+        <h1 class="opening__header">Sell More!</h1>
+        <p class="opening__heading">Open shop on our platform and increase your sales</p>
+        <a href="" class="btn btn--intro btn--info">Open your shop</a>
+    </div>
+
+</section>
+<section class="statistics">
+    <div class="container">
+        <h2 class="statistics__title">The most popular sales platform in country</h2>
+
+        <div class="statistics__container">
+            <div class="statistics__single">
+                <div class="statistics__circle">
+                    <img src="src/images/Person.svg" alt="text1" class="ellipse__img">
+                </div>
+                <div class="statistics__number">100000+</div>
+                <div class="statistics__description">daily entries</div>
+            </div>
+
+            <div class="statistics__single">
+                <div class="statistics__circle">
+                    <img src="src/images/Eye.svg" alt="text1" class="ellipse__img">
+                </div>
+                <div class="statistics__number">2000000+</div>
+                <div class="statistics__description">seen products<br>every day</div>
+            </div>
+
+            <div class="statistics__single">
+                <div class="statistics__circle">
+                    <img src="src/images/Catalog.svg" alt="text1" class="ellipse__img">
+                </div>
+                <div class="statistics__number">10000+</div>
+                <div class="statistics__description">added posts<br>daily</div>
+            </div>
+
         </div>
     </div>
 </section>
-<section class=“stat”>
-    <div class=“stat__wrapper”>
-        <h2 class=“stat__title”>The most popular sales platform in country</h2>
-        <div class=“stat-item__wrapper”>
-            <div class=“stat__card”>
-                <div class=“ellipse__holder”>
-                    <div class=“ellipse”></div>
-                    <img src=“src/images/person.svg” alt=“text 1” class=“ellipse__img”>
-                </div>
-                <p class=“stat__number”>100000 +</p>
-                <p class=“stat__desc”>daily entries</p>
+
+
+<section class="benefit">
+    <div class="benefit__wrapper">
+        <div class="benefit__card">
+            <div class="benefit__col1">
+                <h2 class="benefit__title">Be always first</h2>
+                <p class="benefit__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="benefit__sep"></div>
             </div>
-            <div class=“stat__card”>
-                <div class=“ellipse__holder”>
-                    <div class=“ellipse ellipse__blue”></div>
-                    <img src=“src/images/eye.svg” alt=“text 2” class=“ellipse__img ellipse--eye”>
-                </div>
-                <p class=“stat__number”>2000000+</p>
-                <p class=“stat__desc”>seen products <br> every day</p>
+            <div class="benefit__col2"> <img src="src/images/Macbook.png" alt="" class="benefit__img">
+                <div class="benefit__bg"></div>
             </div>
-            <div class=“stat__card”>
-                <div class=“ellipse__holder”>
-                    <div class=“ellipse ellipse__green”></div>
-                    <img src=“src/images/catalog.svg” alt=“text 3” class=“ellipse__img”>
-                </div>
-                <p class=“stat__number”>10000+</p>
-                <p class=“stat__desc”>added posts <br> daily</p>
+        </div>
+        <div class="benefit__card">
+            <div class="benefit__col1">
+                <h2 class="benefit__title">Your shop is
+                    where you are!</h2>
+                <p class="benefit__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="benefit__sep"></div>
+            </div>
+            <div class="benefit__col2"> <img src="" alt="" class="benefit__img">
+                <div class="benefit__bg"></div>
+            </div>
+        </div>
+        <div class="benefit__card">
+            <div class="benefit__col1">
+                <h2 class="benefit__title">Your shop is
+                    where you are!</h2>
+                <p class="benefit__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="benefit__sep"></div>
+            </div>
+            <div class="benefit__col2"><img src="" alt="" class="benefit__img">
+                <div class="benefit__bg"></div>
             </div>
         </div>
     </div>
 </section>
+
+
+
+
 </body>
 </html>
+
